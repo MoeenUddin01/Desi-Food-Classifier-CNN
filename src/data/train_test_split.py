@@ -3,8 +3,8 @@ import random
 from pathlib import Path
 
 def split_dataset(
-    source_dir,
-    target_dir,
+    source_dir="data/raw/dataset",
+    target_dir="data/processed",
     train_ratio=0.8,
     seed=42,
     image_extensions=(".jpg", ".jpeg", ".png", ".webp")
@@ -53,7 +53,7 @@ def split_dataset(
 
 if __name__ == "__main__":
     split_dataset(
-        source_dir="data/raw",
+        source_dir="data/raw/dataset",
         target_dir="data/processed",
         train_ratio=0.8,
         seed=42
