@@ -24,7 +24,9 @@ def split_dataset(
             continue
 
         # checking file extensions and collecting images
-        images = []
+        # images = []
+        images = [img for img in class_dir.iterdir() if img.suffix.lower() in image_extensions]  # ✅ simplified
+
         for img in class_dir.iterdir():
             if img.suffix.lower() in image_extensions:
                images.append(img)

@@ -1,5 +1,6 @@
 from torch.utils.data import DataLoader
-from dataset import train_dataset, test_dataset
+#from dataset import train_dataset, test_dataset
+from src.data.dataset import train_dataset, test_dataset
 
 train_loader = DataLoader(
     train_dataset,
