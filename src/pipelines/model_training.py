@@ -1,5 +1,5 @@
 import torch
-from src.data.loader import train_loader, test_loader
+from src.datas.loader import train_loader, test_loader
 from src.model.cnn import CNN
 from src.model.train import Trainer
 from src.model.evaluation import Evaluator

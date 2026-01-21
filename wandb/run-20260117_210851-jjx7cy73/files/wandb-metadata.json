@@ -1,0 +1,38 @@
+{
+  "os":  "Linux-6.17.9-76061709-generic-x86_64-with-glibc2.35",
+  "python":  "CPython 3.10.12",
+  "startedAt":  "2026-01-17T16:08:51.765029Z",
+  "program":  "-m src.pipelines.model_training",
+  "git":  {
+    "remote":  "https://github.com/MoeenUddin01/Desi-Food-Classifier-CNN.git",
+    "commit":  "4fcc04949cf8ca1ee8d13b583d5af9f44677e5c4"
+  },
+  "email":  "moeenuddin051@gmail.com",
+  "root":  "/home/moeenuddin/Desktop/Deep_learning/dishes/Desi-Food-Classifier-CNN",
+  "host":  "pop-os",
+  "executable":  "/home/moeenuddin/Desktop/Deep_learning/dishes/Desi-Food-Classifier-CNN/.venv/bin/python",
+  "cpu_count":  6,
+  "cpu_count_logical":  12,
+  "gpu":  "Quadro P600",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "241369505792",
+      "used":  "110364454912"
+    }
+  },
+  "memory":  {
+    "total":  "16543408128"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "Quadro P600",
+      "memoryTotal":  "4294967296",
+      "cudaCores":  384,
+      "architecture":  "Pascal",
+      "uuid":  "GPU-4c4ce825-d138-5ba7-943c-7ebdfcdf7660"
+    }
+  ],
+  "cudaVersion":  "13.0",
+  "writerId":  "sbt5urekbmnkk8xt454jpm6y476kh6hr"
+}

@@ -219,4 +219,3 @@ data
 *.pt
 *.h5
 models/
-wandb/
